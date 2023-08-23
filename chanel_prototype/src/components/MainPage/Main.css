@@ -1,0 +1,38 @@
+.page{
+    display: flex;
+    flex-direction: row;
+}
+
+.main_buttons{
+    display: flex;
+    justify-content: center;
+    gap: 91px ;
+    padding-left: 120px;
+}
+
+.main_buttons .buy_btn{
+    color: white;
+    background-color:#F5C533 ;
+    height: 55px;
+    width:175px;
+    border: transparent;
+}
+
+.main_buttons .add_btn{
+    color: white;
+    background-color:#3F2305 ;
+    height: 55px;
+    width:175px;
+    border: transparent;
+}
+
+.image{
+    padding-left: 180px ;
+    padding-top: 54px;
+
+}
+
+.logo{
+    padding-top: 60px;
+    padding-right: 100px ;
+}
