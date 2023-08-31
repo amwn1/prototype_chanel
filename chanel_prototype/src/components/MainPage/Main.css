@@ -11,7 +11,7 @@
     display: flex;
     justify-content: center;
     gap: 91px ;
-    padding-left: 120px;
+    padding-left: 390px ;
 }
 
 .main_buttons .buy_btn{
@@ -37,8 +37,8 @@
 }
 
 .image{
-    padding-left: 200px ;
-    padding-top: 54px;
+    padding-left: calc(551px - 204px) ;
+    padding-top: 34px;
 
 }
 
