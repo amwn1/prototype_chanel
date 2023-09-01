@@ -7,7 +7,7 @@
     flex-direction:column;
     width: 204px;
     height: 566px;
-    justify-content: space-evenly;
+    justify-content: space-around;
     gap: 1rem;
     background-color: #D9D9D9;
     
