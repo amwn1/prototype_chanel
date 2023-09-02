@@ -5,7 +5,7 @@ const Main = () => {
        <div className="page">
       <div className="product">
         <div className="image">
-          <img src="./public/bottle.png" alt="chanel_paris" />
+          <img src="/bottle.png" alt="chanel_paris" />
         </div>
         <div className="main_buttons">
           <button className="buy_btn">Buy</button>
@@ -13,7 +13,7 @@ const Main = () => {
         </div>
       </div>
       <div className="logo">
-        <img src="./public/logo.png" alt="" />
+        <img src="/logo.png" alt="" />
       </div>
       </div>
       
