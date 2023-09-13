@@ -7,8 +7,9 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 100vw;
-    height: 25vh;
+    width: 100%;
+
+    min-height: 200px;
     background-color: #DFD7BF;
 }
 
@@ -18,17 +19,18 @@ text-align: center;
 font-family: 'Cinzel', serif;
 font-family: 'Julius Sans One', sans-serif;
 font-family: 'Koulen', cursive;
-font-size: 22px;
-font-weight: 400;
-line-height: 12px; 
+font-size: 1.5rem;
+font-weight: 500;
+margin: 0;
 }
 
 .tandc{
     color: #000;
 font-family: Inter;
-font-size: 15px;
+font-size: 1rem;
 font-style: normal;
 font-weight: 400;
-line-height: 91px;
+margin: 10px 0;
+text-align: center;
 text-decoration-line: underline;
 }
