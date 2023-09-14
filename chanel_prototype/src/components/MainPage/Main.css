@@ -1,5 +1,4 @@
-
-  @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&family=Julius+Sans+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&family=Julius+Sans+One&display=swap');
 
 
 .page{
@@ -47,4 +46,5 @@
     padding-top: 60px;
     padding-right: 100px ;
     justify-content: center;
-}
+} 
+
