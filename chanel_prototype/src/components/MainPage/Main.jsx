@@ -1,22 +1,22 @@
 import React from "react";
-import "./Main.css";
+import "./Main.css"; // Import your CSS file
+
 const Main = () => {
   return (
-       <div className="page">
+    <div className="page"> 
       <div className="product">
-        <div className="image">
-          <img src="/bottle.png" alt="chanel_paris" />
-        </div>
+        
+          <img src="/bottle.png" alt="chanel_paris" className="image" /> 
+        
         <div className="main_buttons">
           <button className="buy_btn">Buy</button>
           <button className="add_btn">Add</button>
         </div>
       </div>
       <div className="logo">
-        <img src="/logo.png" alt="" />
+        <img src="/logo.png" alt="" className="logo" />
       </div>
-      </div>
-      
+    </div>
   );
 };
 

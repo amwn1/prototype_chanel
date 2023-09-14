@@ -1,50 +1,88 @@
 @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&family=Julius+Sans+One&display=swap');
 
-
+.product{
+    margin: -50px;
+}
 .page{
     display: flex;
     flex-direction: row;
+    justify-content: center; /* Center the content horizontally */
+    align-items: center; /* Center the content vertically */
+   
 }
 
-.main_buttons{
+.main_buttons {
     display: flex;
     justify-content: center;
-    gap: 91px ;
-    padding-left: 150px ;
+    gap: 91px;
+    padding-left: 300px;
+    margin-bottom: 150px;
 }
 
-.main_buttons .buy_btn{
-    color: #F5F5F5;
-    background-color:#F5C533 ;
-    max-height: 37px;
-    width:50%;
-    max-width: 137px;
-    border: transparent;
+.main_buttons .buy_btn,
+.main_buttons .add_btn {
     font-size: 22px;
     font-family: 'Julius Sans One', sans-serif;
+    color: #F5F5F5;
+    border: transparent;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-.main_buttons .add_btn{
-    font-size: 22px;
-    font-family: 'Julius Sans One', sans-serif;
-    color: #F5F5F5;
-    background-color:#3F2305 ;
-    height: 37px;
-    width:137px;
-    border: transparent;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.26);
+.main_buttons .buy_btn {
+    background-color: #F5C533;
+    max-height: 37px;
+    width: 50%;
+    max-width: 137px;
 }
 
-.image{
-    padding-left: 225px ;
-    padding-top: 34px;
+.main_buttons .add_btn {
+    background-color: #3F2305;
+    height: 37px;
+    width: 137px;
+}
 
+
+.image{
+    justify-content: center;
+    padding-left: 190px ;
+    padding-top: 34px;
+   
 }
 
 .logo{
-    padding-top: 60px;
-    padding-right: 100px ;
+
+    margin-left: 4rem;
+    margin-bottom: 15rem;
     justify-content: center;
 } 
+
+@media screen and (max-width: 768px) {
+    .page {
+        flex-direction: column; /* Change to a single column layout */
+    }
+
+    .main_buttons {
+        padding-left: 20px; /* Adjust padding for smaller screens */
+        margin-bottom: 50px; /* Reduce margin for smaller screens */
+        text-align: center; /* Center-align buttons */
+        gap: 20px; /* Reduce the gap between buttons */
+    }
+
+    .main_buttons .buy_btn,
+    .main_buttons .add_btn {
+        width: 100%; /* Make buttons full-width */
+        max-width: none; /* Remove max-width */
+    }
+
+    .image {
+        padding-left: 20px; /* Adjust padding for smaller screens */
+        padding-top: 20px; /* Adjust padding for smaller screens */
+    }
+
+    .logo {
+        margin-left: 0; /* Remove margin for smaller screens */
+        margin-bottom: 50px; /* Reduce margin for smaller screens */
+        justify-content: center;
+    }
+}
 

@@ -3,14 +3,14 @@
 
 
 .footer_container {
-    display: flex;
+     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     width: 100%;
-
     min-height: 200px;
     background-color: #DFD7BF;
+    margin-bottom: 0; /* Remove or reduce margin-bottom */
 }
 
 .brand{
