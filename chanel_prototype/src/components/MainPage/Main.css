@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&family=Julius+Sans+One&display=swap');
 
 .product{
-    margin: -50px;
+    margin: -35px;
 }
 .page{
     display: flex;
@@ -56,27 +56,20 @@
     justify-content: center;
 } 
 
-@media screen and (max-width: 768px) {
-    .page {
-        flex-direction: column; /* Change to a single column layout */
-    }
-
+@media screen and (min-width: 768px) {
+    /* Adjust the positioning for smaller screens */
     .main_buttons {
-        padding-left: 20px; /* Adjust padding for smaller screens */
+        padding-left: 225px; /* Adjust padding for smaller screens */
         margin-bottom: 50px; /* Reduce margin for smaller screens */
         text-align: center; /* Center-align buttons */
-        gap: 20px; /* Reduce the gap between buttons */
+        gap: 91px; /* Reduce the gap between buttons */
     }
 
-    .main_buttons .buy_btn,
-    .main_buttons .add_btn {
-        width: 100%; /* Make buttons full-width */
-        max-width: none; /* Remove max-width */
-    }
+    
 
     .image {
-        padding-left: 20px; /* Adjust padding for smaller screens */
-        padding-top: 20px; /* Adjust padding for smaller screens */
+        padding-left: 300px; 
+        padding-top: 20px; 
     }
 
     .logo {
